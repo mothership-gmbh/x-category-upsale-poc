@@ -3,7 +3,7 @@ import numpy as np
 from tqdm import tqdm
 
 mongo_local_conn = MongoClient('mongodb://127.0.0.1')
-mongo_local_coll = mongo_local_conn['ms_shopping_cart']['fake_orders_weighted_100K_replace_false']
+mongo_local_coll = mongo_local_conn['ms_shopping_cart']['fake_orders_weighted_2']
 
 
 # Uniform distr. = .0625
